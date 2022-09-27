@@ -10,7 +10,7 @@ indexFileLines = indexFile.read()
 indexJSON = json.loads(indexFileLines)
 indexFile.close()
 print("WARNING: YOU ARE WORKING WITH VERY SENSITIVE DATA. IF YOU HAVE NOT DOWNLOADED THIS FROM THE OFFICIAL GITHUB REPOSITORY, DELETE THIS SOFTWARE RIGHT NOW OR RISK YOUR INORMATION BEING STOLEN.")
-print("THE ONLY OFFICIAL DOWNLOAD IS AT https://github.com/hruysgerwu8hgeruireg")
+print("THE ONLY OFFICIAL DOWNLOAD IS AT https://github.com/AZthemute/discord-dm-list/")
 input("If you understand, press enter to continue.")
 
 # get list of recipients and channels

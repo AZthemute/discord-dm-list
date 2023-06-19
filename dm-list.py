@@ -55,14 +55,12 @@ for dir in os.listdir("messages"):
 # correlate channel IDs with index.json to get usernames and tags of recipients
 for channelID in channels:
     recipientTag = indexJSON[channelID]
-    print(recipientTag)
-    print(indexJSON[channelID])
     recipientsTags.append(recipientTag[20:])
 
 # ask user where to save
 if dmlistPath is None:
     print("Please select where to save the DM list file.")
-    time.sleep(2.5)
+    #time.sleep(2.5)
     dmlistPath = filedialog.asksaveasfilename(initialfile="dm-list.txt", defaultextension="txt")
     print(f"Saved to {dmlistPath}")
 
